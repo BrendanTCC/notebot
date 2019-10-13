@@ -3,6 +3,7 @@ from os import system
 no = ["you are an idiot","You are an idiot","Gabe itches","gabe itches","Mike Oxmall","Mike oxmall","mike Oxmall","mike oxmall","cunt","fuck","dick","pussy","tits","tiddies"]
 stop = ["cancel","quit","exit","stop"]
 scrname = "notebot"
+VER = "0.5.0"
 def cancel(): 
     system("cls||clear")
     print("Okay, cancelled. Quitting in 3s...")
@@ -22,7 +23,7 @@ def err():
         print('e: inappropriate name or repeater input!')
         print("this script will end in four (4) seconds.")
         sleep(4)
-print("brendan's infini-repeater")
+print("notebot v"+VER)
 print("(C) 2019 Brendan J. Webb. All rights reserved.")
 sleep(2)
 system("cls||clear")
