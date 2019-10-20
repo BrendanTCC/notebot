@@ -69,3 +69,4 @@ else:
                         print(".")
                         print(".")
                         print(".")
+                        sleep(.5)
