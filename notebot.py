@@ -51,7 +51,7 @@ else:
                     sleep(2)
                 else:
                     system("cls||clear")
-                    print("Okay! Let's do this!\nstarting in:")
+                    print("Okay, initializing.\nStarting in:")
                     print("5.")
                     sleep(1)
                     print("4.")
@@ -64,11 +64,8 @@ else:
                     sleep(1)
                     while True:
                         system("cls||clear")
-                        print("hi there! I'm",scrname+". I was told by",name+" to tell you the following:\n\n"+inf+"\n\nI'll just have these dots show up below to prove that this script\n(and",name+"'s computer) are both still running.")
+                        print("hi there! I'm",scrname+". I was told by",name+" to tell you the following:\n\n"+inf+"\n\nThe dots below are designed to confirm that the script is still running.")
                         print("By the way, don't shoot the messenger. please. Us messengers don't like getting shot.\nI DON'T WANNA DIIIEEEEEE!!!!")
                         print(".")
-                        sleep(1)
                         print(".")
-                        sleep(1)
                         print(".")
-                        sleep(1)
