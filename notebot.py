@@ -65,7 +65,6 @@ else:
                     while True:
                         system("cls||clear")
                         print("hi there! I'm",scrname+". I was told by",name+" to tell you the following:\n\n"+inf+"\n\nThe dots below are designed to confirm that the script is still running.")
-                        print("By the way, don't shoot the messenger. please. Us messengers don't like getting shot.\nI DON'T WANNA DIIIEEEEEE!!!!")
                         print(".")
                         sleep(0.5)
                         print(".")
