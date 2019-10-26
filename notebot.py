@@ -1,4 +1,4 @@
-from time import sleep
+    from time import sleep
 from os import system
 no = ["you are an idiot","You are an idiot","Gabe itches","gabe itches","Mike Oxmall","Mike oxmall","mike Oxmall","mike oxmall","cunt","fuck","dick","pussy","tits","tiddies"]
 stop = ["cancel","quit","exit","stop"]
