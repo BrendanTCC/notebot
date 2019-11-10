@@ -20,7 +20,7 @@ def cancel():
     
 def err():
         system("clear||cls")
-        print('e: inappropriate name or repeater input!')
+        print('e: inappropriate name or note input!')
         print("this script will end in four (4) seconds.")
         sleep(4)
 print("notebot v"+VER)
