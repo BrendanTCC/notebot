@@ -1,3 +1,4 @@
+dot_speed = 0.1
 from time import sleep
 from os import system
 no = ["you are an idiot","You are an idiot","Gabe itches","gabe itches","Mike Oxmall","Mike oxmall","mike Oxmall","mike oxmall","cunt","fuck","dick","pussy","tits","tiddies"]
@@ -23,9 +24,14 @@ def err():
         print('e: inappropriate name or note input!')
         print("this script will end in four (4) seconds.")
         sleep(4)
+print("The 'dot_speed' variable is configured to cycle the dots every",dot_speed,"seconds.")
+print("")
+print("To change it, simply open this script in your favourite text editor and change the number.\nmake sure not to enclose it in quotes though!")
+print("")
+print("")
 print("notebot v"+VER)
 print("(C) 2019 Brendan J. Webb. All rights reserved.")
-sleep(2)
+sleep(10)
 system("cls||clear")
 print("Hi there! I'm",scrname+".")
 print("What's your name? type it out, then hit [enter]...")
@@ -67,8 +73,8 @@ else:
                         print("hi there! I'm",scrname+". I was told by",name+" to tell you the following:\n\n"+inf+"\n\nThe dots below are designed to confirm that the script is still running.")
                         print("They're also designed to make sure that",name+"'s computer isn't frozen.")
                         print(".")
-                        sleep(0.5)
+                        sleep(dot_speed)
                         print(".")
-                        sleep(0.5)
+                        sleep(dot_speed)
                         print(".")
-                        sleep(0.5)
+                        sleep(dot_speed)
