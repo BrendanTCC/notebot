@@ -4,7 +4,7 @@ from os import system
 no = ["you are an idiot","You are an idiot","Gabe itches","gabe itches","Mike Oxmall","Mike oxmall","mike Oxmall","mike oxmall","cunt","fuck","dick","pussy","tits","tiddies"]
 stop = ["cancel","quit","exit","stop"]
 scrname = "notebot"
-VER = "0.6.1"
+VER = "0.6.2"
 def cancel(): 
     system("cls||clear")
     print("Okay, cancelled. Quitting in 3s...")
@@ -57,11 +57,7 @@ else:
                     sleep(2)
                 else:
                     system("cls||clear")
-                    print("Okay, initializing.\nStarting in:")
-                    print("5.")
-                    sleep(1)
-                    print("4.")
-                    sleep(1)
+                    print("Starting in:")
                     print("3.")
                     sleep(1)
                     print("2.")
